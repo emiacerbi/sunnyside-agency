@@ -1,0 +1,39 @@
+body {
+    font-family: var(--fraunces);
+}
+
+.header {
+
+    &__title {
+        color: var(--white);
+        font-size: 2.7rem;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        line-height: 1.2;
+    }
+}
+
+.main {
+
+    &__brand {
+        padding: 3rem 2rem;
+
+        &__title {
+            font-size: 2rem;
+            line-height: 1.2;
+            font-weight: 900;
+        }
+
+        &__content {
+            font-size: 1.1rem;
+            font-family: var(--barlow);
+            color: var(--dark-grayish-blue);
+        }
+    }
+
+}
+
+// --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+// --very-dark-grayish-blue: hsl(213, 9%, 39%);
+// --dark-grayish-blue: hsl(232, 10%, 55%);
+// --grayish-blue:

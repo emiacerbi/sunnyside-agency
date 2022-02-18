@@ -1,0 +1,41 @@
+body {
+    background-color: lightcyan;
+}
+
+.header {
+
+    height: 538px;
+    // width: 100%;
+    background-image: url(/images/mobile/image-header.jpg);
+    // background-image: url(/images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    // background-position: center;
+    background-size: contain;
+
+    padding: 2rem 1.5rem;
+
+    &__title {
+        margin-top: 5rem;
+        text-align: center;
+
+    }
+    
+}
+
+.main {
+
+    &__brand {
+        background-color: var(--white);
+        padding: 3rem 2rem;
+
+        &__title {
+            text-align: center;
+        }
+
+        &__content {
+            margin-top: 1rem;
+            text-align: center;
+        }
+    }
+
+}
