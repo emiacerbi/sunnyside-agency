@@ -29,11 +29,32 @@ body {
             font-family: var(--barlow);
             color: var(--dark-grayish-blue);
         }
+
+        &__learn {
+            text-transform: uppercase;    
+        }
     }
 
-}
 
-// --very-dark-desaturated-blue: hsl(212, 27%, 19%);
-// --very-dark-grayish-blue: hsl(213, 9%, 39%);
-// --dark-grayish-blue: hsl(232, 10%, 55%);
-// --grayish-blue:
+    &__box {
+        &__title.green,
+        &__content.green  {
+            color: var(--dark-desaturated-cyan);
+        }
+
+        &__title.blue,
+        &__content.blue  {
+            color: var(--dark-blue);
+        }
+
+        &__title {
+            font-weight: 900;
+            font-size: 2rem;
+        }
+
+        &__content {
+            font-size: 1rem;
+            font-family: var(--barlow);
+        }
+    }
+}
