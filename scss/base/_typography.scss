@@ -58,3 +58,30 @@ body {
         }
     }
 }
+
+.testimonials {
+
+    &__title {
+        color: var(--grayish-blue);
+        font-family: var(--fraunces);
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 3px;
+    }
+    
+    &__reviews {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        &__review {
+
+            &__img {
+                border-radius: 50%;
+                margin-bottom: 1rem;
+                width: 75px;
+                margin: 0 auto;
+            }
+        }
+    }
+}

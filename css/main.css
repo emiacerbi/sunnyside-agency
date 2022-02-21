@@ -130,6 +130,25 @@ body {
   font-family: var(--barlow);
 }
 
+.testimonials__title {
+  color: var(--grayish-blue);
+  font-family: var(--fraunces);
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 3px;
+}
+.testimonials__reviews {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.testimonials__reviews__review__img {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  width: 75px;
+  margin: 0 auto;
+}
+
 body {
   background-color: lightcyan;
 }
@@ -202,6 +221,24 @@ body {
 }
 .main__box__content {
   margin-top: 1.5rem;
+}
+
+.testimonials {
+  background-color: var(--white);
+}
+.testimonials__title {
+  text-align: center;
+}
+.testimonials__reviews {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.testimonials__reviews__review__img {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  width: 75px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=main.css.map */
