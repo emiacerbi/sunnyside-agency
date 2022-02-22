@@ -134,3 +134,25 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.footer {
+    background-color: var(--dark-moderate-cyan);
+    background-color: #90d4c5;
+    display: flex;
+    flex-direction: column;
+
+    &__logo {
+        margin: 0 auto;
+        margin-top: 3.5rem;
+    }
+
+    &__nav {
+        
+        &__ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+            padding: 0;
+        }
+    }
+}
