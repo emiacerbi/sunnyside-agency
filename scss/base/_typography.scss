@@ -82,6 +82,24 @@ body {
                 width: 75px;
                 margin: 0 auto;
             }
+
+            &__content {
+                font-size: 1.1rem;
+                font-family: var(--barlow);
+                color: var(--very-dark-grayish-blue);
+                text-align: center;
+            }
+
+            &__author {
+                text-align: center;
+                font-size: 1.25rem;
+            }
+
+            &__role {
+                font-family: var(--barlow);
+                color: var(--grayish-blue);
+                text-align: center;
+            }
         }
     }
 }

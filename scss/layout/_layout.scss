@@ -11,7 +11,6 @@ body {
     background-repeat: no-repeat;
     // background-position: center;
     background-size: contain;
-
     padding: 2rem 1.5rem;
 
     &__title {
@@ -98,14 +97,17 @@ body {
 
 .testimonials {
     background-color: var(--white);
+    padding-bottom: 4rem;
 
     &__title {
         text-align: center;
+        padding-top: 3rem;
+        margin-bottom: 2rem;
     }
     
     &__reviews {
         list-style: none;
-        padding: 0;
+        padding: 1.75rem;
         margin: 0;
 
         &__review {
@@ -116,12 +118,19 @@ body {
                 width: 75px;
                 margin: 0 auto;
             }
+
+            &__content {
+                margin-top: 2rem;
+            }
+
+            &__author {
+                margin-top: 1.5rem;
+            }
         }
     }
 }
 
-// --very-dark-desaturated-blue: hsl(212, 27%, 19%);
-// --very-dark-grayish-blue: hsl(213, 9%, 39%);
-// --dark-grayish-blue: hsl(232, 10%, 55%);
-// --grayish-blue: hsl(210, 4%, 67%);
-// --white: hsl(0, 0%, 100%);
+.art {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
