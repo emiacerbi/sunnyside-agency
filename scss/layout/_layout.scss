@@ -7,10 +7,9 @@ body {
     height: 538px;
     // width: 100%;
     background-image: url(/images/mobile/image-header.jpg);
-    // background-image: url(/images/desktop/image-header.jpg);
     background-repeat: no-repeat;
-    // background-position: center;
-    background-size: contain;
+    background-position: bottom;
+    background-size:cover;
     padding: 2rem 1.5rem;
 
     &__title {
@@ -156,9 +155,17 @@ body {
             margin-top: 2.5rem;
 
         }
-
-        // &__li {
-        //     margin
-        // }
     }
+
+    &__icons {
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 750px) {
+    
 }

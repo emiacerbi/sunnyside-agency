@@ -177,7 +177,8 @@ body {
   height: 538px;
   background-image: url(/images/mobile/image-header.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-position: bottom;
+  background-size: cover;
   padding: 2rem 1.5rem;
 }
 .header__title {
@@ -291,6 +292,13 @@ body {
   justify-content: space-around;
   padding: 0;
   margin-top: 2.5rem;
+}
+.footer__icons {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
