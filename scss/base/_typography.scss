@@ -103,3 +103,21 @@ body {
         }
     }
 }
+
+.footer {
+    &__logo {
+
+    }
+
+    &__nav {
+        
+        &__ul {
+
+        }
+
+        &__li {
+            font-family: var(--barlow);
+            color: var(--dark-moderate-cyan);
+        }
+    }
+}
