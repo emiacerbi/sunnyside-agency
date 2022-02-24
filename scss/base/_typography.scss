@@ -4,6 +4,39 @@ body {
 
 .header {
 
+    &__nav {
+
+
+        &__links {
+
+            &__link {
+                font-family: var(--barlow);
+                color: var(--white);
+                cursor: pointer;
+                // transition: .1s ease-in-out;
+            }
+
+            &__link:hover,
+            &__link:focus {
+                border-bottom: 2px solid white;
+            }
+
+            .contact {
+                font-family: var(--fraunces);
+                color: black;
+                text-transform: uppercase;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                border-bottom: none;
+
+            }
+
+            .contact:hover {
+                color: var(--white);
+                opacity: 1;
+            }
+        }
+    }
+
     &__title {
         color: var(--white);
         font-size: 2.7rem;
@@ -119,5 +152,35 @@ body {
             font-family: var(--barlow);
             color: var(--dark-moderate-cyan);
         }
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .header {
+        &__title {
+            letter-spacing: 10px;
+        }
+    }
+
+    .main {
+        &__brand {
+
+            &__title {
+                font-size: 2.5rem;
+            }
+            &__content {
+
+            }
+            &__learn {
+                
+            }
+        }
+    }
+
+    .testimonials {
+
+        padding: 6rem;
+        padding-bottom: 8rem;
     }
 }
