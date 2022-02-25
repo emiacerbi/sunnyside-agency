@@ -6,6 +6,10 @@ body {
     background-color: lightcyan;
 }
 
+/* ==========
+    Header 
+========== */
+
 .header {
 
     height: 538px;
@@ -103,12 +107,17 @@ body {
         top: 50%;
         transform: translateX(-50%);
         cursor: pointer;
+        display: none;
     }
 
     .fa-solid.fa-arrow-down-long:hover {
         opacity: .7;
     }
 }
+
+/* ==========
+    Main 
+========== */
 
 .main {
 
@@ -164,8 +173,6 @@ body {
     &__glass {
         height: 100%;
         width: 100%;
-        // max-height: 600px;
-        // max-width: 720px;
         object-fit: cover;
     }
 
@@ -199,6 +206,10 @@ body {
         }
     }
 }
+
+/* ==========
+Testimonials 
+========== */
 
 .testimonials {
     background-color: var(--white);
@@ -237,6 +248,10 @@ body {
     }
 }
 
+/* ==========
+    Art 
+========== */
+
 .art {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -245,6 +260,10 @@ body {
         width: 100%;
     }
 }
+
+/* ==========
+    Footer 
+========== */
 
 .footer {
     background-color: var(--dark-moderate-cyan);
@@ -296,6 +315,10 @@ body {
         }
     }
 }
+
+/* ==========
+Media queries 
+========== */
 
 @media (min-width: 500px) {
     
@@ -362,6 +385,10 @@ body {
             &__menu {
                 display: none;
             }
+        }
+
+        .fa-solid.fa-arrow-down-long {
+            display: block;
         }
     }
     
