@@ -10,8 +10,35 @@ body {
     background-position: bottom;
     background-size:cover;
     padding: 2rem 1.5rem;
-
+    
+    
     &__nav {
+        display: flex;
+
+        .fa.fa-bars {
+            color: white;
+            font-size: 2rem;
+            margin-left: auto;
+            cursor: pointer;
+        }
+
+        // (Mobile Menu)
+        &__menu {
+            position: absolute;
+            background-color: white;
+            padding: 2rem 4rem;
+            top: 10%;
+            right: 3.5%;
+            display: flex;
+            flex-direction: column;
+            gap: 4rem;
+            
+            &__links {
+                display: block;
+                // margin-top: 1rem;
+            }
+        }
+
         &__links {
             display: none;
         }
@@ -203,7 +230,7 @@ body {
         justify-content: center;
         gap: 2rem;
         cursor: pointer;
-        transition: .1s ease-in-out;
+        transition: .1s ease-in;
 
         &__icon:hover {
             opacity: .7;
@@ -247,6 +274,10 @@ body {
         &__nav {
 
             display: flex;
+
+            .fa.fa-bars {
+                display: none;
+            }
 
             &__links {
                 margin-left: auto;
@@ -300,6 +331,7 @@ body {
         &__brand {
 
             padding: 5rem;
+
             &__title,
             &__content,
             &__learn {
