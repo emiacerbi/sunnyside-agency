@@ -1,8 +1,8 @@
-console.log("hello")
-
 const mobileMenu = document.querySelector('.header__nav__menu')
 const hamburguer = document.querySelector('.fa.fa-bars')
 const triangle = document.querySelector('.triangle')
+
+const arrow = document.querySelector('.fa-solid.fa-arrow-down-long')
 
 let isShown = false
 
@@ -17,5 +17,10 @@ hamburguer.addEventListener('click', () => {
         triangle.style.opacity = '0'
         isShown = false;
     }
-    
 })
+
+
+arrow.addEventListener('click', () => {
+    window.scrollBy(0,1000);
+})
+

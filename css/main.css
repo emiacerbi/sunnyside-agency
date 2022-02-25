@@ -212,6 +212,10 @@ body {
     padding-bottom: 8rem;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: lightcyan;
 }
@@ -286,6 +290,18 @@ body {
 .header__title {
   margin-top: 5rem;
   text-align: center;
+}
+.header .fa-solid.fa-arrow-down-long {
+  font-size: 9rem;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+.header .fa-solid.fa-arrow-down-long:hover {
+  opacity: 0.7;
 }
 
 .main__brand {

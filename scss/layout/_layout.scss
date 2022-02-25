@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: lightcyan;
 }
@@ -89,6 +93,20 @@ body {
     &__title {
         margin-top: 5rem;
         text-align: center;
+    }
+
+    .fa-solid.fa-arrow-down-long {
+        font-size: 9rem;
+        color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%);
+        cursor: pointer;
+    }
+
+    .fa-solid.fa-arrow-down-long:hover {
+        opacity: .7;
     }
 }
 
@@ -397,7 +415,6 @@ body {
                 z-index: -1;
                 border-bottom: 5px solid var(--yellow);
                 border-top: 5px solid var(--yellow)
-    
             }
         }
     }
