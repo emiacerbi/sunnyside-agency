@@ -13,7 +13,7 @@ body {
 .header {
 
     height: 538px;
-    background-image: url(/images/mobile/image-header.jpg);
+    background-image: url(../images/mobile/image-header.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size:cover;
@@ -177,11 +177,11 @@ body {
     }
 
     &__box.cherry {
-        background-image: url(/images/mobile/image-graphic-design.jpg);
+        background-image: url(../images/mobile/image-graphic-design.jpg);
     } 
 
     &__box.orange {
-        background-image: url(/images/mobile/image-photography.jpg);
+        background-image: url(../images/mobile/image-photography.jpg);
     } 
 
     &__box {
@@ -323,18 +323,18 @@ Media queries
 @media (min-width: 500px) {
     
     .header {
-        background-image: url(/images/desktop/image-header.jpg);
+        background-image: url(../images/desktop/image-header.jpg);
     }
 
     .main {
         
         &__box.cherry {
-            background-image: url(/images/desktop/image-graphic-design.jpg);
+            background-image: url(../images/desktop/image-graphic-design.jpg);
             background-size: cover;
         } 
 
         &__box.orange {
-            background-image: url(/images/desktop/image-photography.jpg);
+            background-image: url(../images/desktop/image-photography.jpg);
             background-size: cover;
 
         } 
