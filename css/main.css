@@ -110,6 +110,16 @@ body {
   color: var(--white);
   opacity: 1;
 }
+.header__nav__menu__links {
+  color: var(--very-dark-grayish-blue);
+  font-family: var(--barlow);
+  font-size: 1.2rem;
+}
+.header__nav__menu .contact {
+  color: black;
+  text-transform: uppercase;
+  font-family: var(--fraunces);
+}
 .header__title {
   color: var(--white);
   font-size: 2.7rem;
@@ -196,6 +206,7 @@ body {
   .main__brand__title {
     font-size: 2.5rem;
   }
+
   .testimonials {
     padding: 6rem;
     padding-bottom: 8rem;
@@ -215,6 +226,10 @@ body {
 }
 .header__nav {
   display: flex;
+  align-items: center;
+}
+.header__nav__image {
+  height: 100%;
 }
 .header__nav .fa.fa-bars {
   color: white;
@@ -225,15 +240,45 @@ body {
 .header__nav__menu {
   position: absolute;
   background-color: white;
-  padding: 2rem 4rem;
-  top: 10%;
-  right: 3.5%;
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
+  padding: 2rem 5.1rem;
+  top: 11%;
+  right: 6.5%;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
 }
 .header__nav__menu__links {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  cursor: pointer;
+}
+.header__nav__menu__links__link:hover {
+  border-bottom: 2px solid var(--very-dark-grayish-blue);
+  margin-bottom: -2px;
+}
+.header__nav__menu .contact {
+  background-color: var(--yellow);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.header__nav__menu .contact:hover {
+  background-color: white;
+  outline: 2px solid var(--yellow);
+  margin-bottom: 0;
+  border-bottom: none;
+}
+.header__nav__menu .triangle {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: -7.5%;
+  right: 0;
+  border-bottom: 50px solid white;
+  border-left: 50px solid transparent;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
 }
 .header__nav__links {
   display: none;
@@ -436,6 +481,9 @@ body {
   }
   .header__nav__links .contact:hover {
     background-color: #6fcfff;
+  }
+  .header__nav__menu {
+    display: none;
   }
 
   .main {
