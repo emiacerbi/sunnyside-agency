@@ -13,9 +13,11 @@ Users should be able to:
 
 ### Screenshot
 
+![](./images/screenshot.png)
+
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Link](https://emiacerbi.github.io/sunnyside-agency/)
 
 ## My process
 
