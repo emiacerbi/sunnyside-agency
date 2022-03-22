@@ -343,15 +343,13 @@ body {
   margin: 0;
   padding: 0;
   left: 50%;
-  top: 15px;
+  top: 13px;
   transform: translateX(-50%);
   z-index: -1;
-  border-bottom: 5px solid var(--yellow);
-  border-top: 5px solid var(--yellow);
+  background: var(--yellow);
 }
 .main__brand__span.red {
-  border-bottom: 5px solid var(--soft-red);
-  border-top: 5px solid var(--soft-red);
+  background: var(--soft-red);
 }
 .main__egg, .main__glass {
   height: 100%;
@@ -551,7 +549,7 @@ Media queries
   }
   .main__brand__span {
     position: absolute;
-    width: 130px;
+    width: 120px;
     height: 8px;
     opacity: 0.5;
     border-radius: 1rem;
@@ -561,8 +559,6 @@ Media queries
     top: 15px;
     transform: translateX(-4%);
     z-index: -1;
-    border-bottom: 5px solid var(--yellow);
-    border-top: 5px solid var(--yellow);
   }
 
   .testimonials {
