@@ -41,11 +41,12 @@ body {
             background-color: white;
             padding: 2rem 5.1rem;
             top: 11%;
-            right: 6.5%;
+            left: 50%;
+            transform: translateX(-50%) scale(0);
 
-            opacity: 0;
 
             transition: .3s ease-in-out;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             
             &__links {
                 display: flex;

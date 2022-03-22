@@ -8,13 +8,13 @@ let isShown = false
 hamburguer.addEventListener('click', () => {
     if (!isShown) 
     {
-        mobileMenu.style.opacity = '1'
+        mobileMenu.style.transform = 'translateX(-50%) scale(1)'
         triangle.style.opacity = '1'
         isShown = true;
     } 
     else if (isShown)
     {
-        mobileMenu.style.opacity = '0'
+        mobileMenu.style.transform = 'translateX(-50%) scale(0)'
         triangle.style.opacity = '0'
         isShown = false;
     }
