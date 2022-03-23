@@ -20,7 +20,16 @@ hamburguer.addEventListener('click', () => {
     }
 })
 
+
+// Depending on the width of the screen, the arrow will scroll a little bit more.
 arrow.addEventListener('click', () => {
-    window.scrollBy(0,1100);
+    if (window.innerWidth >= 750 && window.innerWidth < 1400) {
+        window.scrollBy(0,900);
+    } else if (window.innerWidth >= 1400 )
+    {
+        window.scrollBy(0,1000);
+    }
 })
+
+
 
